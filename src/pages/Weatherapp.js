@@ -1,5 +1,5 @@
 import { useState } from "react";
-import '../public/styles.css'
+//import './Weather.css'
 
 
 export default function WeatherApp() {

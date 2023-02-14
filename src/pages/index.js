@@ -1,12 +1,13 @@
-import { ClientComponent } from 'react-server-components';
-import Weatherapp from '../src/pages/Weatherapp';
+//import { ClientComponent } from 'react-server-components';
+import Weatherapp from './Weatherapp';
 
 export default function IndexPage() {
   return (
-    <ClientComponent>
-      <div>
+    <div>
+
         <Weatherapp />
-      </div>
-    </ClientComponent>
-  );
+    
+    </div>
+   
+ );
 }
